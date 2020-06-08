@@ -24,3 +24,9 @@ pip3 install gpiozero
 pip3 install RPi.GPIO
 pip3 install pigpio
 ```
+* run program
+
+```
+python led.py
+```
+
