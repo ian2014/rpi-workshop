@@ -2,7 +2,7 @@
 from gpiozero import LED
 from Adafruit_IO import Client
 import time
-aio = Client('ianli', 'aio_uMVB80ABgPnioUFA71vnEp7PjtuD')
+aio = Client('YOUR_USERNAME', 'YOUR_KEY')
 
 led = LED(17)
 # Send the value 100 to a feed called 'Foo'.
